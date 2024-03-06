@@ -1,0 +1,12 @@
+﻿# Main Form
+main.title: My first WPF app
+main.button: I am a button!
+main.radiobutton.a: I am a Select 1 
+main.radiobutton.b: I am a Select 2
+main.list.a: I am a list object 1
+main.list.b: I am a list object 2
+main.list.c: I am a list object 3
+main.list.d: I am a list object 4
+
+# Notify Form
+notify.title: like embrassing me ♂ huh? like embrassing me ♂ !

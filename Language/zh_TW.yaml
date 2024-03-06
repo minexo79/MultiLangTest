@@ -1,0 +1,12 @@
+﻿# Main Form
+main.title: 我的第一個 WPF 應用程式
+main.button: 我是按鈕!
+main.radiobutton.a: 我是選項1 
+main.radiobutton.b: 我是選項2
+main.list.a: 我是清單物體1 
+main.list.b: 我是清單物體2
+main.list.c: 我是清單物體3 
+main.list.d: 我是清單物體4 
+
+# Notify Form
+notify.title: 來人搞死♂你阿！？來人搞死♂你！

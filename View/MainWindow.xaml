@@ -1,0 +1,28 @@
+﻿<Window x:Class="MultiLangTest.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MultiLangTest.View"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        xmlns:i18n="clr-namespace:Lepo.i18n;assembly=Lepo.i18n"
+        ui:WindowHelper.UseModernWindowStyle="True"
+        mc:Ignorable="d"
+        Title="MultiLangTest" Width="260" SizeToContent="Height" FontFamily="Microsoft JhengHei UI">
+    <Grid Name="grid">
+        <ui:SimpleStackPanel Margin="12" Spacing="12">
+            <TextBlock Text="{i18n:Translate String='main.title'}" FontSize="16" FontWeight="Bold" />
+            <Button Content="{i18n:Translate String='main.button'}" Click="Button_Click" />
+            <ui:RadioButtons>
+                <RadioButton Content="{i18n:Translate String='main.radiobutton.a'}" />
+                <RadioButton Content="{i18n:Translate String='main.radiobutton.b'}" />
+            </ui:RadioButtons>
+            <ListBox>
+                <ListBoxItem Content="{i18n:Translate String='main.list.a'}" />
+                <ListBoxItem Content="{i18n:Translate String='main.list.b'}" />
+                <ListBoxItem Content="{i18n:Translate String='main.list.c'}" />
+                <ListBoxItem Content="{i18n:Translate String='main.list.d'}" />
+            </ListBox>
+        </ui:SimpleStackPanel>
+    </Grid>
+</Window>
